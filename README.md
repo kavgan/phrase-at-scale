@@ -1,14 +1,21 @@
 # Phrase-At-Scale
 
-Discover phrases from large text corpora using PySpark.
+`Phrase-At-Scale` provides a fast and easy way to discover phrases from large text corpora using PySpark.
 
+## Features
+- Discover most common phrases in your text
+- Size of discovered phrases can be arbitrary (typically: bigrams and trigrams)
+- Adjust configuration to control quality of phrases
+- Can be used in languages other than English 
+- Can be run locally using multiple threads, or in parallel on multiple machines
+- Annotate your corpora with the phrases discovered
 
 ## Quick Start
 
 ## Run locally
 To re-run phrase discovery using the default dataset:
 1. Install [Spark](https://spark.apache.org/downloads.html) 
-1. Clone this repo and move into the top-level directory of this repo.
+1. Clone this repo and move into its top-level directory.
 
 	```
 	git clone git@github.com:kavgan/phrase-at-scale.git
