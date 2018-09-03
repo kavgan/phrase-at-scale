@@ -1,6 +1,10 @@
 # Phrase-At-Scale
 
-`Phrase-At-Scale` provides a fast and easy way to discover phrases from large text corpora using PySpark.
+`Phrase-At-Scale` provides a fast and easy way to discover phrases from large text corpora using PySpark. Here's an example of phrases extracted from a review dataset:
+
+<div align="center" width="100%">
+<img src="phrase-at-scale.png" width="50%">
+</div>
 
 ## Features
 - Discover most common phrases in your text
