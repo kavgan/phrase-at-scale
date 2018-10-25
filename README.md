@@ -32,6 +32,8 @@ To re-run phrase discovery using the default dataset:
 
 4. You should be able to monitor the progress of your job at [http://localhost:4040/](http://localhost:4040/)
 
+**Notes:**
+
 - The above command runs the job on master and uses the specified number of threads within `local[num_of_threads]`.
 - This job outputs 2 files: 
 	1. the list of phrases under `top-opinrank-phrases.txt` 
