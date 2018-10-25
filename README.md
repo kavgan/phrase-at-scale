@@ -19,21 +19,24 @@
 ## Run locally
 To re-run phrase discovery using the default dataset:
 1. Install [Spark](https://spark.apache.org/downloads.html) 
-1. Clone this repo and move into its top-level directory.
+2. Clone this repo and move into its top-level directory.
 
 	```
 	git clone git@github.com:kavgan/phrase-at-scale.git
 	```
-1. Run the spark job: `<your_path_to_spark>/bin/spark-submit --master local[200] --driver-memory 4G phrase_generator.py `
-1. You should be able to monitor the progress of your job at [http://localhost:4040/](http://localhost:4040/)
+3. Run the spark job: 
+	```
+	<your_path_to_spark>/bin/spark-submit --master local[200] --driver-memory 4G phrase_generator.py 
+	``` 
+  This will use settings (including input data files) as specified in `config.py`.
+
+4. You should be able to monitor the progress of your job at [http://localhost:4040/](http://localhost:4040/)
 
 - The above command runs the job on master and uses the specified number of threads within `local[num_of_threads]`.
 - This job outputs 2 files: 
 	1. the list of phrases under `top-opinrank-phrases.txt` 
-    1. the annotated corpora under `data/tagged-data/` 
+	1. the annotated corpora under `data/tagged-data/` 
 
-## Run in distributed mode
-Coming up.
 
 
 
