@@ -72,4 +72,4 @@ The default configuration uses a subset of the [OpinRank](http://kavita-ganesan.
 ```
 
 ## Contact
-This repository is maintained by [Kavita Ganesan](mailto:ganesan.kavita@gmail.com). Please send me an e-mail or open a GitHub issue if you have questions. 
+This repository is maintained by [Kavita Ganesan](https://kavita-ganesan.com). Please send me an e-mail or open a GitHub issue if you have questions. 
